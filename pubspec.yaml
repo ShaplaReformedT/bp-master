@@ -1,0 +1,57 @@
+name: picsum_gallery
+description: A Gallery Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  rxdart: ^0.27.1
+  shared_preferences: ^2.0.6
+  dio: ^4.0.0
+  connectivity: ^3.0.6
+  dio_http_cache: ^0.3.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.9.2"
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/ic_logo.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Gilroy-Light
+      fonts:
+        - asset: assets/fonts/Gilroy-Light.ttf
+
+    - family: Gilroy-Bold
+      fonts:
+        - asset: assets/fonts/Gilroy-Bold.ttf
+
+    - family: Gilroy-ExtraBold
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.ttf
+
+    - family: Gilroy-Medium
+      fonts:
+        - asset: assets/fonts/Gilroy-Medium.ttf
+
+
